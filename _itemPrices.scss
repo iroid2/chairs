@@ -42,6 +42,8 @@
                         background-color: orange;
                         font-size: 2rem;
                         color: white;
+                        padding: .4rem;
+                        border-radius: 50%;
                     }
                 }
                 .custom-btns{
@@ -55,6 +57,10 @@
                 }
                 
             }
+        }
+        .swiper-button-prev,.swiper-button-next{
+            color: black;
+            font-weight: 900;
         }
     }
 }

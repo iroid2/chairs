@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.selected-itm-container {
+  width: 100%;
+  height: auto;
+  padding: 1rem 1rem;
+  color: white;
+  background-color: black;
+}
+.selected-itm-container .selected-nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 2rem;
+}
+.selected-itm-container .selected-nav h4 {
+  align-self: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.selected-itm-container .selected-nav i {
+  font-size: 4rem;
+  align-self: center;
+}
+.selected-itm-container .selected-nav .bxs-heart {
+  padding: 0.8rem;
+  color: red;
+  font-size: 2rem;
+  border-radius: 50%;
+  border: 3px solid rgb(61, 61, 61);
+}
+.selected-itm-container .sel-itm-hero {
+  width: 100%;
+  margin: 2rem;
+}
+.selected-itm-container .sel-itm-hero img {
+  border-top-right-radius: 20rem;
+  border-top-left-radius: 20rem;
+  width: 90%;
+  align-self: center;
+}
+.selected-itm-container .item-purchas-detail {
+  display: flex;
+  justify-content: space-between;
+}
+.selected-itm-container .item-purchas-detail .left-purch {
+  font-size: 1.6rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.selected-itm-container .item-purchas-detail .left-purch .rating {
+  display: flex;
+}/*# sourceMappingURL=select.css.map */

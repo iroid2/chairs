@@ -1,9 +1,9 @@
 .static-menu{
-    background-color: red;
+    background-color: rgb(236, 224, 224);
     width: 90%;
     display: flex;
     justify-content: space-between;
-    padding: .3rem;
+    padding: .3rem 2rem;
     border-radius: 2rem;
     margin: 0 auto;
     margin-top: 2rem;
@@ -17,10 +17,10 @@
         
         svg{
             width: 40px;
-            color: white;
+            color: black;
         }
         i{
-            color: white;
+            color: black;
             font-size: 3rem;
         }
     }

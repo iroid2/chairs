@@ -52,6 +52,8 @@
   background-color: orange;
   font-size: 2rem;
   color: white;
+  padding: 0.4rem;
+  border-radius: 50%;
 }
 .itemPrices .swiper .swiper-wrapper .swiper-slide .custom-btns {
   width: 100px;
@@ -62,13 +64,17 @@
 .itemPrices .swiper .swiper-wrapper .swiper-slide .custom-btns svg {
   width: 130px;
 }
+.itemPrices .swiper .swiper-button-prev, .itemPrices .swiper .swiper-button-next {
+  color: black;
+  font-weight: 900;
+}
 
 .static-menu {
-  background-color: red;
+  background-color: rgb(236, 224, 224);
   width: 90%;
   display: flex;
   justify-content: space-between;
-  padding: 0.3rem;
+  padding: 0.3rem 2rem;
   border-radius: 2rem;
   margin: 0 auto;
   margin-top: 2rem;
@@ -83,10 +89,10 @@
 }
 .static-menu .menu-detail svg {
   width: 40px;
-  color: white;
+  color: black;
 }
 .static-menu .menu-detail i {
-  color: white;
+  color: black;
   font-size: 3rem;
 }
 
@@ -97,6 +103,7 @@ body {
 body .home-container {
   background: url(./assets/bg.jpg);
   background-size: contain;
+  padding-bottom: 2rem;
   padding-top: 2.5rem;
   max-width: 40%;
   margin: 0 auto;
@@ -190,7 +197,7 @@ body .home-container .img-gallery .swiper .swiper-wrapper .swiper-slide {
   display: flex;
   align-items: center;
   flex-direction: column;
-  border: 2px solid black;
+  border: 2px solid rgb(161, 160, 160);
   border-radius: 10px;
 }
 body .home-container .img-gallery .swiper .swiper-wrapper .swiper-slide img {
