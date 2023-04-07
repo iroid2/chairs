@@ -1,0 +1,60 @@
+.itemPrices{
+    width: 100%;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    .item-head{
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        margin: 1rem;
+        svg{
+            width: 45px;
+            transform: rotate(30deg);
+        }
+    }
+    .swiper{
+        width: 100%;
+        .swiper-wrapper{
+            width: 100%;
+            .swiper-slide{
+                width: 10%;
+                color: white;
+                overflow: hidden;
+                position: relative;
+                .sliderimg1{
+                    border-top-right-radius: 50%;
+                    border-top-left-radius:50% ;
+                    width: 100%;
+                    // z-index: 12;
+                }
+                .text-sectn{
+                    background-color: rgb(239, 252, 239);
+                    width: 200px;
+                    color: black;
+                    display: flex;
+                    justify-content: space-between;
+                    padding: .3rem 1rem;
+                    left: 1rem;
+                    z-index: 9999;
+                    margin: 0 auto;
+                    i{
+                        background-color: orange;
+                        font-size: 2rem;
+                        color: white;
+                    }
+                }
+                .custom-btns{
+                    width: 100px;
+                    background-color: red;
+                    z-index: 8888;
+                    color: black;
+                    svg{
+                        width: 130px;
+                    }
+                }
+                
+            }
+        }
+    }
+}

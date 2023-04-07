@@ -1,0 +1,203 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.itemPrices {
+  width: 100%;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.itemPrices .item-head {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+}
+.itemPrices .item-head svg {
+  width: 45px;
+  transform: rotate(30deg);
+}
+.itemPrices .swiper {
+  width: 100%;
+}
+.itemPrices .swiper .swiper-wrapper {
+  width: 100%;
+}
+.itemPrices .swiper .swiper-wrapper .swiper-slide {
+  width: 10%;
+  color: white;
+  overflow: hidden;
+  position: relative;
+}
+.itemPrices .swiper .swiper-wrapper .swiper-slide .sliderimg1 {
+  border-top-right-radius: 50%;
+  border-top-left-radius: 50%;
+  width: 100%;
+}
+.itemPrices .swiper .swiper-wrapper .swiper-slide .text-sectn {
+  background-color: rgb(239, 252, 239);
+  width: 200px;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.3rem 1rem;
+  left: 1rem;
+  z-index: 9999;
+  margin: 0 auto;
+}
+.itemPrices .swiper .swiper-wrapper .swiper-slide .text-sectn i {
+  background-color: orange;
+  font-size: 2rem;
+  color: white;
+}
+.itemPrices .swiper .swiper-wrapper .swiper-slide .custom-btns {
+  width: 100px;
+  background-color: red;
+  z-index: 8888;
+  color: black;
+}
+.itemPrices .swiper .swiper-wrapper .swiper-slide .custom-btns svg {
+  width: 130px;
+}
+
+.static-menu {
+  background-color: red;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.3rem;
+  border-radius: 2rem;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+.static-menu .menu-detail {
+  color: black;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.static-menu .menu-detail svg {
+  width: 40px;
+  color: white;
+}
+.static-menu .menu-detail i {
+  color: white;
+  font-size: 3rem;
+}
+
+body {
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.849);
+}
+body .home-container {
+  background: url(./assets/bg.jpg);
+  background-size: contain;
+  padding-top: 2.5rem;
+  max-width: 40%;
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  body .home-container {
+    max-width: 100%;
+  }
+}
+body .home-container .top-nav {
+  display: flex;
+  padding: 0.2rem 1rem;
+  justify-content: space-between;
+}
+body .home-container .top-nav .left-nav {
+  background-color: white;
+  border-radius: 50%;
+}
+body .home-container .top-nav .left-nav i {
+  margin: 0 auto;
+  padding: 0.5rem 0.5rem;
+  font-size: 2rem;
+}
+body .home-container .top-nav .mid-nav {
+  color: white;
+  display: flex;
+  align-items: center;
+}
+body .home-container .top-nav .mid-nav h3 {
+  font-size: 2rem;
+  font-weight: normal;
+}
+body .home-container .top-nav .mid-nav h3 span {
+  font-weight: 900;
+}
+body .home-container .top-nav .right-nav {
+  border: 1px solid white;
+  border-radius: 50%;
+}
+body .home-container .top-nav .right-nav i {
+  margin: 0 auto;
+  padding: 0.5rem 0.5rem;
+  font-size: 2rem;
+  color: white;
+}
+body .home-container .search-sectn {
+  width: 100%;
+  margin-top: 1.3rem;
+}
+body .home-container .search-sectn form {
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+body .home-container .search-sectn form .bx-search-alt-2 {
+  position: absolute;
+  left: 1rem;
+  top: 1rem;
+  font-size: 2rem;
+}
+body .home-container .search-sectn form input {
+  padding: 1rem 3rem;
+  border-radius: 2rem;
+  width: 80%;
+  font-size: 1.5rem;
+}
+body .home-container .search-sectn form svg {
+  width: 50px;
+  padding: 0.8rem;
+  border-radius: 50%;
+  background-color: white;
+  align-items: center;
+}
+body .home-container .img-gallery {
+  width: 100%;
+  display: flex;
+  margin-top: 1rem;
+}
+body .home-container .img-gallery .swiper {
+  width: 100%;
+}
+body .home-container .img-gallery .swiper .swiper-wrapper {
+  width: 100%;
+}
+body .home-container .img-gallery .swiper .swiper-wrapper .swiper-slide {
+  width: 17%;
+  padding: 0.4rem 0.2rem;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+body .home-container .img-gallery .swiper .swiper-wrapper .swiper-slide img {
+  width: 50%;
+  border-radius: 50%;
+}
+body .home-container .img-gallery .swiper .swiper-wrapper .swiper-slide p {
+  margin-top: 1rem;
+  text-align: center;
+}/*# sourceMappingURL=home.css.map */

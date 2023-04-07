@@ -1,0 +1,27 @@
+.static-menu{
+    background-color: red;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    padding: .3rem;
+    border-radius: 2rem;
+    margin: 0 auto;
+    margin-top: 2rem;
+    .menu-detail{
+        color: black;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+        svg{
+            width: 40px;
+            color: white;
+        }
+        i{
+            color: white;
+            font-size: 3rem;
+        }
+    }
+}

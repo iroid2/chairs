@@ -1,0 +1,128 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  width: 100vw;
+  height: auto;
+  background-color: rebeccapurple;
+  align-items: center;
+}
+body .intro-page {
+  position: relative;
+  max-width: 30%;
+  max-height: 94%;
+  padding: 0.3rem 0.3rem;
+  margin: 0 auto;
+  overflow: hidden;
+  background-color: black;
+}
+@media (max-width: 258px) {
+  body .intro-page {
+    height: 200vh;
+  }
+}
+@media (max-width: 768px) {
+  body .intro-page {
+    max-width: 100%;
+    height: 100vh;
+  }
+}
+body .intro-page .topImg .bigerImg {
+  width: 30%;
+  border-radius: 50%;
+}
+@media (max-width: 445px) {
+  body .intro-page .topImg .bigerImg {
+    width: 20%;
+  }
+}
+@media (max-width: 768px) {
+  body .intro-page .topImg .bigerImg {
+    width: 50%;
+  }
+}
+body .intro-page .topImg .smallerImg {
+  width: 15%;
+  border-radius: 50%;
+}
+@media (max-width: 768px) {
+  body .intro-page .topImg .smallerImg {
+    width: 30%;
+  }
+}
+body .intro-page .btmImg {
+  width: 100%;
+}
+body .intro-page .btmImg .biggestImg {
+  width: 60%;
+  border-radius: 50%;
+  border-bottom: 4px solid rgba(233, 149, 13, 0.849);
+  box-shadow: rgba(216, 185, 10, 0.623) 0px 40px 90px -80px, rgba(230, 215, 10, 0.747) 0px 30px 60px -30px;
+}
+@media (max-width: 445px) {
+  body .intro-page .btmImg .biggestImg {
+    width: 40%;
+  }
+}
+@media (max-width: 768px) {
+  body .intro-page .btmImg .biggestImg {
+    width: 90%;
+  }
+}
+body .intro-page .text-sectn {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  margin-top: 2rem;
+}
+body .intro-page .text-sectn h1 {
+  font-size: 1rem;
+}
+body .intro-page .arrow-sectn {
+  color: white;
+  font-size: 4rem;
+  text-align: center;
+  margin-top: 2rem;
+  padding: 0.1rem -2rem;
+  height: 10.3%;
+  width: 22%;
+  border-radius: 50%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  border: 2px solid white;
+  border-style: dashed;
+}
+@media (max-width: 768px) {
+  body .intro-page .arrow-sectn {
+    font-size: 3rem;
+  }
+}
+body .intro-page .arrow-sectn i {
+  background-color: rgb(255, 167, 5);
+  border-radius: 59%;
+  padding: 0.5rem;
+  margin: 0 auto;
+}
+body .intro-page .ring {
+  width: 40%;
+  position: absolute;
+  height: 20%;
+  border-radius: 50%;
+  border: 2px solid rgb(150, 147, 147);
+}
+body .intro-page .upperring {
+  top: -3rem;
+  right: -3rem;
+}
+body .intro-page .lowerring {
+  bottom: -3rem;
+  left: -3rem;
+}/*# sourceMappingURL=style.css.map */
