@@ -5,7 +5,7 @@
 }
 .selected-itm-container{
     width: 100%;
-    height: auto;
+    // height: 100vh;
     padding: 2rem 1rem;
     color: white;
     background-color: black;
@@ -83,9 +83,14 @@
     .colors-sectn{  
         display: flex;
         padding: 2rem;
-        border-bottom: 2px solid white;
-        border-top: 2px solid white;
+        border-bottom: 3px solid white;
+        border-top: 3px solid white;
         display: flex;
+        border-left: none;
+        border-style: dashed;
+        border-right: none;
+        border-left: none;
+        margin-top: 2rem;
         gap: 2rem;
         h4{
             font-size: 2rem;
@@ -97,10 +102,10 @@
             border-radius: 50%;
             align-self: center;
         }
-        
         .circles-wrapper{
             background-color: rgb(85, 87, 87);
             display: flex;
+            width: 60%;
             gap: 1rem;
             .c1{
                 background-color: red;
@@ -113,6 +118,29 @@
             }
             .c5{
                 background-color: rgb(243, 17, 224);
+            }
+        }
+    }
+    .decription{
+        font-size: 1.7rem;
+        margin-top: 2rem;
+    }
+    .cart-sectn{
+        width: 100%;
+        margin-top: 2rem;
+        // position: fixed;
+        .cart-wrapper{
+            background-color: aliceblue;
+            color: black;
+            padding: 1.3rem;
+            width: 90%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-radius: 3rem;
+            font-size: 1.6rem;
+            .cart-details{
+                display: flex;
             }
         }
     }
