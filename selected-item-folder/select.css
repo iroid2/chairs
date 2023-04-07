@@ -7,7 +7,7 @@
 .selected-itm-container {
   width: 100%;
   height: auto;
-  padding: 1rem 1rem;
+  padding: 2rem 1rem;
   color: white;
   background-color: black;
 }
@@ -39,17 +39,78 @@
 .selected-itm-container .sel-itm-hero img {
   border-top-right-radius: 20rem;
   border-top-left-radius: 20rem;
-  width: 90%;
+  width: 80%;
   align-self: center;
 }
 .selected-itm-container .item-purchas-detail {
   display: flex;
+  width: 100%;
   justify-content: space-between;
+  gap: 2rem;
 }
 .selected-itm-container .item-purchas-detail .left-purch {
+  width: 60%;
   font-size: 1.6rem;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .selected-itm-container .item-purchas-detail .left-purch .rating {
   display: flex;
+}
+.selected-itm-container .item-purchas-detail .right-purch {
+  width: 40%;
+}
+.selected-itm-container .item-purchas-detail .right-purch .scrol {
+  width: 70%;
+  display: flex;
+  background-color: rgb(85, 84, 84);
+  font-size: 1.4rem;
+  border-radius: 3rem;
+  padding: 0.2rem 0.4rem;
+  justify-content: space-between;
+}
+.selected-itm-container .item-purchas-detail .right-purch .scrol .minus, .selected-itm-container .item-purchas-detail .right-purch .scrol .add {
+  border-radius: 50%;
+  color: black;
+  padding: 0.8rem 1rem;
+  background-color: white;
+  font-size: 2rem;
+}
+.selected-itm-container .item-purchas-detail .right-purch .scrol .numb {
+  align-self: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.selected-itm-container .colors-sectn {
+  display: flex;
+  padding: 2rem;
+  border-bottom: 2px solid white;
+  border-top: 2px solid white;
+  display: flex;
+  gap: 2rem;
+}
+.selected-itm-container .colors-sectn h4 {
+  font-size: 2rem;
+}
+.selected-itm-container .colors-sectn .circle {
+  width: 30px;
+  height: 30px;
+  background-color: rgb(34, 2, 66);
+  border-radius: 50%;
+  align-self: center;
+}
+.selected-itm-container .colors-sectn .circles-wrapper {
+  background-color: rgb(85, 87, 87);
+  display: flex;
+  gap: 1rem;
+}
+.selected-itm-container .colors-sectn .circles-wrapper .c1 {
+  background-color: red;
+}
+.selected-itm-container .colors-sectn .circles-wrapper .c2 {
+  background-color: yellow;
+}
+.selected-itm-container .colors-sectn .circles-wrapper .c3 {
+  background-color: rgb(219, 59, 10);
+}
+.selected-itm-container .colors-sectn .circles-wrapper .c5 {
+  background-color: rgb(243, 17, 224);
 }/*# sourceMappingURL=select.css.map */

@@ -6,7 +6,7 @@
 .selected-itm-container{
     width: 100%;
     height: auto;
-    padding: 1rem 1rem;
+    padding: 2rem 1rem;
     color: white;
     background-color: black;
     .selected-nav{
@@ -36,18 +36,83 @@
         img{
             border-top-right-radius: 20rem;
             border-top-left-radius: 20rem;
-            width: 90%;
+            width: 80%;
             align-self: center;
         }
     }
     .item-purchas-detail{
         display: flex;
+        width: 100%;
         justify-content: space-between;
+        gap: 2rem;
         .left-purch{
+            width: 60%;
+            // background-color: goldenrod;
             font-size: 1.6rem;
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             .rating{
                 display: flex;
+            }
+        }
+        .right-purch{
+            // background-color: red;
+            width: 40%;
+            .scrol{
+                width: 70%;
+                display: flex;
+                background-color: rgb(85, 84, 84);
+                font-size: 1.4rem;
+                // padding: 1rem;
+                border-radius: 3rem;
+                padding: .2rem .4rem;
+                justify-content: space-between;
+                .minus,.add{
+                    border-radius: 50%;
+                    color: black;
+                    padding: .8rem 1rem;
+                    background-color: white;
+                    font-size: 2rem ;
+                }
+                .numb{
+                    align-self: center;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                }
+            }
+        }
+    }
+    .colors-sectn{  
+        display: flex;
+        padding: 2rem;
+        border-bottom: 2px solid white;
+        border-top: 2px solid white;
+        display: flex;
+        gap: 2rem;
+        h4{
+            font-size: 2rem;
+        }
+        .circle{
+            width: 30px;
+            height: 30px;
+            background-color: rgb(34, 2, 66);
+            border-radius: 50%;
+            align-self: center;
+        }
+        
+        .circles-wrapper{
+            background-color: rgb(85, 87, 87);
+            display: flex;
+            gap: 1rem;
+            .c1{
+                background-color: red;
+            }
+            .c2{
+                background-color: yellow;
+            }
+            .c3{
+                background-color: rgb(219, 59, 10);
+            }
+            .c5{
+                background-color: rgb(243, 17, 224);
             }
         }
     }
