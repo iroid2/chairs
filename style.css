@@ -96,6 +96,7 @@ body .intro-page .arrow-sectn {
   margin: 0 auto;
   display: flex;
   align-items: center;
+  border: 2px solid white;
   border-style: dashed;
 }
 @media (max-width: 768px) {
