@@ -4,6 +4,7 @@
 }
 @import './itemPrices';
 @import './staticMen';
+
 body{
     width: 100vw;
     background-color: rgba(0, 0, 0, 0.849);
@@ -68,21 +69,19 @@ body{
             }
         }
         .active{
-            display: block;
-        }
+            visibility: visible;
+         }
         .homeNav{
-            display: flex;
-            flex-direction: column;
             color: white;
             width: 80%;
             height: 70%;
             gap: 3rem;
             padding-left: 1rem;
-            background-color: black;
+            background-color: rgb(34, 11, 238);
             position: absolute;
-            z-index: 999;
-            display: none;
+            z-index: 999; 
             top: 0;
+            visibility: hidden;
             svg{
                 width: 40px;
                 align-self: flex-end;
@@ -93,7 +92,9 @@ body{
                 color: white;
                 font-size: 2rem;
             }
+
         }
+        
         .search-sectn{
             width: 100%;
             margin-top: 1.3rem;

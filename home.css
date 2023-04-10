@@ -78,6 +78,7 @@
   border-radius: 2rem;
   margin: 0 auto;
   margin-top: 2rem;
+  gap: 1.2rem;
 }
 .static-menu .menu-detail {
   color: black;
@@ -153,21 +154,19 @@ body .home-container .top-nav .right-nav i {
   color: white;
 }
 body .home-container .active {
-  display: block;
+  visibility: visible;
 }
 body .home-container .homeNav {
-  display: flex;
-  flex-direction: column;
   color: white;
   width: 80%;
   height: 70%;
   gap: 3rem;
   padding-left: 1rem;
-  background-color: black;
+  background-color: rgb(34, 11, 238);
   position: absolute;
   z-index: 999;
-  display: none;
   top: 0;
+  visibility: hidden;
 }
 body .home-container .homeNav svg {
   width: 40px;
