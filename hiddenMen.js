@@ -3,7 +3,10 @@ const cancelBtn =document.querySelector(".cancelBtn");
 const homeNav =document.querySelector(".homeNav");
 
 menuIcon.addEventListener(('click'),function(){
-    homeNav.classList.add("active")
+    homeNav.style.visibility='visible'
+})
+cancelBtn.addEventListener(('click'),function(){
+    homeNav.style.visibility='hidden'
 })
 
 
