@@ -14,6 +14,7 @@ body{
         // background-color: red;
         padding-top: 2.5rem;
         max-width: 40%;
+        height: 100vh;
         margin: 0 auto;
         @media(max-width:768px){
                 max-width: 100%;
@@ -25,10 +26,15 @@ body{
             .left-nav{
                 background-color: white;
                 border-radius: 50%;
+                align-items: center;
                 i{
                     margin: 0 auto;
                     padding: .5rem .5rem;
                     font-size: 2rem;
+                    color: black;
+                    @media(max-width:445px){
+                        padding-top: 1rem;
+                    }
                 }
             }
             .mid-nav{
@@ -52,6 +58,9 @@ body{
                     padding: .5rem .5rem;
                     font-size: 2rem;
                     color: white;
+                    @media(max-width:445px){
+                        padding: .3rem;
+                    }
                 }
             }
         }
@@ -97,6 +106,7 @@ body{
                         width: 17%;
                         padding: .4rem .2rem;
                         height: 100px;
+                        color: white;
                         display: flex;
                         align-items: center;
                         flex-direction: column;

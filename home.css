@@ -88,12 +88,12 @@
   flex-direction: column;
 }
 .static-menu .menu-detail svg {
-  width: 40px;
+  width: 30px;
   color: black;
 }
 .static-menu .menu-detail i {
   color: black;
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 body {
@@ -106,6 +106,7 @@ body .home-container {
   padding-bottom: 2rem;
   padding-top: 2.5rem;
   max-width: 40%;
+  height: 100vh;
   margin: 0 auto;
 }
 @media (max-width: 768px) {
@@ -121,11 +122,18 @@ body .home-container .top-nav {
 body .home-container .top-nav .left-nav {
   background-color: white;
   border-radius: 50%;
+  align-items: center;
 }
 body .home-container .top-nav .left-nav i {
   margin: 0 auto;
   padding: 0.5rem 0.5rem;
   font-size: 2rem;
+  color: black;
+}
+@media (max-width: 445px) {
+  body .home-container .top-nav .left-nav i {
+    padding-top: 1rem;
+  }
 }
 body .home-container .top-nav .mid-nav {
   color: white;
@@ -148,6 +156,11 @@ body .home-container .top-nav .right-nav i {
   padding: 0.5rem 0.5rem;
   font-size: 2rem;
   color: white;
+}
+@media (max-width: 445px) {
+  body .home-container .top-nav .right-nav i {
+    padding: 0.3rem;
+  }
 }
 body .home-container .search-sectn {
   width: 100%;
@@ -194,6 +207,7 @@ body .home-container .img-gallery .swiper .swiper-wrapper .swiper-slide {
   width: 17%;
   padding: 0.4rem 0.2rem;
   height: 100px;
+  color: white;
   display: flex;
   align-items: center;
   flex-direction: column;

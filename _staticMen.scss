@@ -7,6 +7,7 @@
     border-radius: 2rem;
     margin: 0 auto;
     margin-top: 2rem;
+    // gap: 1.2rem;
     .menu-detail{
         color: black;
         font-weight: bold;
@@ -16,12 +17,12 @@
         flex-direction: column;
         
         svg{
-            width: 40px;
+            width: 30px;
             color: black;
         }
         i{
             color: black;
-            font-size: 3rem;
+            font-size: 2rem;
         }
     }
 }
