@@ -121,7 +121,8 @@
 }
 .selected-itm-container .colors-sectn .circles-wrapper .c1 {
   background-color: red;
-  padding: 0.2rem 0.3rem;
+  width: 30px;
+  height: 30px;
 }
 .selected-itm-container .colors-sectn .circles-wrapper .c2 {
   background-color: yellow;

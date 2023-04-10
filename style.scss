@@ -9,13 +9,13 @@ a{
 
 body{
     width: 100vw;
-    height: auto;
+    height: aut0;
     background-color: rebeccapurple ;
     align-items: center;
     .intro-page{
         position: relative;
         max-width: 30%; 
-        max-height: 94%;
+        max-height: 100vh;
         padding: .9rem 1rem;
         margin: 0 auto;
         overflow: hidden;
