@@ -58,7 +58,8 @@
             // background-color: red;
             width: 40%;
             .scrol{
-                width: 70%;
+                width: 100%;
+                height: 45%;
                 display: flex;
                 background-color: rgb(85, 84, 84);
                 font-size: 1.4rem;
@@ -69,9 +70,10 @@
                 .minus,.add{
                     border-radius: 50%;
                     color: black;
-                    padding: .8rem 1rem;
+                    width: 30px;
                     background-color: white;
                     font-size: 2rem ;
+                    text-align: center;
                 }
                 .numb{
                     align-self: center;
@@ -138,9 +140,10 @@
             justify-content: space-between;
             align-items: center;
             border-radius: 3rem;
-            font-size: 1.6rem;
+            font-size: 1rem;
             .cart-details{
                 display: flex;
+                font-size: 1rem;
             }
         }
     }

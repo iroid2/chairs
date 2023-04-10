@@ -59,7 +59,8 @@
   width: 40%;
 }
 .selected-itm-container .item-purchas-detail .right-purch .scrol {
-  width: 70%;
+  width: 100%;
+  height: 45%;
   display: flex;
   background-color: rgb(85, 84, 84);
   font-size: 1.4rem;
@@ -70,9 +71,10 @@
 .selected-itm-container .item-purchas-detail .right-purch .scrol .minus, .selected-itm-container .item-purchas-detail .right-purch .scrol .add {
   border-radius: 50%;
   color: black;
-  padding: 0.8rem 1rem;
+  width: 30px;
   background-color: white;
   font-size: 2rem;
+  text-align: center;
 }
 .selected-itm-container .item-purchas-detail .right-purch .scrol .numb {
   align-self: center;
@@ -136,8 +138,9 @@
   justify-content: space-between;
   align-items: center;
   border-radius: 3rem;
-  font-size: 1.6rem;
+  font-size: 1rem;
 }
 .selected-itm-container .cart-sectn .cart-wrapper .cart-details {
   display: flex;
+  font-size: 1rem;
 }/*# sourceMappingURL=select.css.map */
