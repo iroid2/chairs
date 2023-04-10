@@ -16,6 +16,10 @@
   justify-content: space-between;
   font-size: 2rem;
 }
+.selected-itm-container .selected-nav a {
+  text-decoration: none;
+  color: white;
+}
 .selected-itm-container .selected-nav h4 {
   align-self: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
