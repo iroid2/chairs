@@ -77,14 +77,14 @@ body{
             font-size: 4rem;
             text-align: center;
             margin-top: 2rem;
-            padding: .1rem -2rem;
+            // padding: .1rem -2rem;
             height: 10.3%;
-            width: 22%;
+            width: 20%;
             border-radius: 50%;
             margin: 0 auto;
             display: flex;
             align-items: center;
-            border: 2px solid white;
+            // border: 2px solid white;
             border-style: dashed;
             @media(max-width:768px){
                 font-size: 3rem;
@@ -94,8 +94,9 @@ body{
                 
                 border-radius: 59%  ;
                 // padding: 1rem 1rem;
-                padding: .5rem;
+                padding: .4rem .1rem;
                 margin: 0 auto;
+                width: 90%;
             }
         }
         .ring{
