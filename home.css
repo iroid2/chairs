@@ -152,6 +152,33 @@ body .home-container .top-nav .right-nav i {
   font-size: 2rem;
   color: white;
 }
+body .home-container .active {
+  display: block;
+}
+body .home-container .homeNav {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  width: 80%;
+  height: 70%;
+  gap: 3rem;
+  padding-left: 1rem;
+  background-color: black;
+  position: absolute;
+  z-index: 999;
+  display: none;
+  top: 0;
+}
+body .home-container .homeNav svg {
+  width: 40px;
+  align-self: flex-end;
+}
+body .home-container .homeNav a {
+  width: 70%;
+  text-decoration: none;
+  color: white;
+  font-size: 2rem;
+}
 body .home-container .search-sectn {
   width: 100%;
   margin-top: 1.3rem;
@@ -162,15 +189,16 @@ body .home-container .search-sectn form {
   display: flex;
   align-items: center;
   gap: 2rem;
+  padding: 0.1rem 1rem;
 }
 body .home-container .search-sectn form .bx-search-alt-2 {
   position: absolute;
-  left: 1rem;
+  left: 1.8rem;
   top: 1rem;
   font-size: 2rem;
 }
 body .home-container .search-sectn form input {
-  padding: 1rem 3rem;
+  padding: 0.7rem 3rem;
   border-radius: 2rem;
   width: 80%;
   font-size: 1.5rem;

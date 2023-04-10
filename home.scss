@@ -67,6 +67,33 @@ body{
                 }
             }
         }
+        .active{
+            display: block;
+        }
+        .homeNav{
+            display: flex;
+            flex-direction: column;
+            color: white;
+            width: 80%;
+            height: 70%;
+            gap: 3rem;
+            padding-left: 1rem;
+            background-color: black;
+            position: absolute;
+            z-index: 999;
+            display: none;
+            top: 0;
+            svg{
+                width: 40px;
+                align-self: flex-end;
+            }
+            a{
+                width: 70%;
+                text-decoration: none;
+                color: white;
+                font-size: 2rem;
+            }
+        }
         .search-sectn{
             width: 100%;
             margin-top: 1.3rem;
@@ -76,14 +103,15 @@ body{
                 display: flex;
                 align-items: center;
                 gap: 2rem;
+                padding: .1rem 1rem;
                 .bx-search-alt-2{
                     position: absolute;
-                    left: 1rem;
+                    left: 1.8rem;
                     top: 1rem;
                     font-size: 2rem;
                 }
                 input{
-                    padding: 1rem 3rem;
+                    padding: .7rem 3rem;
                     border-radius: 2rem;
                     width: 80%;
                     font-size: 1.5rem;
