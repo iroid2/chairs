@@ -116,8 +116,12 @@
             gap: 1rem;
             border-radius: 3rem;
             padding: .3rem;
+            p{
+                text-align: center;
+            }
             .c1{
                 background-color: red;
+                padding: .2rem .3rem;
             }
             .c2{
                 background-color: yellow;

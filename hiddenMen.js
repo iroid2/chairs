@@ -9,4 +9,14 @@ cancelBtn.addEventListener(('click'),function(){
     homeNav.style.visibility='hidden'
 })
 
+// const minus =document.querySelector(".minus");
+// // const numb =document.querySelector(".numb");
+// // const add =document.querySelector(".add");
+
+
+// add.addEventListener(("click"),function(){
+//     console.log("minus is working")
+// })
+
+
 
