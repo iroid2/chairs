@@ -49,7 +49,7 @@
 }
 .selected-itm-container .item-purchas-detail .left-purch {
   width: 60%;
-  font-size: 1.6rem;
+  font-size: 1rem;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .selected-itm-container .item-purchas-detail .left-purch .rating {
@@ -60,12 +60,12 @@
 }
 .selected-itm-container .item-purchas-detail .right-purch .scrol {
   width: 100%;
-  height: 45%;
+  height: 50px;
   display: flex;
   background-color: rgb(85, 84, 84);
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   border-radius: 3rem;
-  padding: 0.2rem 0.4rem;
+  padding: 0.4rem 0.4rem;
   justify-content: space-between;
 }
 .selected-itm-container .item-purchas-detail .right-purch .scrol .minus, .selected-itm-container .item-purchas-detail .right-purch .scrol .add {
@@ -94,7 +94,7 @@
   gap: 2rem;
 }
 .selected-itm-container .colors-sectn h4 {
-  font-size: 2rem;
+  font-size: 1rem;
 }
 .selected-itm-container .colors-sectn .circle {
   width: 30px;
